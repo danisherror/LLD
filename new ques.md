@@ -1,0 +1,23 @@
+
+
+- Pizza with decorator design pattern (add toppings)
+- Create a system that will should the total cost and the things that are used to create it.
+	- For this case let us take the example of computer
+	- Inside computer it has multiple components.
+		- Like RAM, hard disk, graphic card, monitor, CPU etc.
+		- Now lets say if the user say i am using these components then give me the cost of the total computer and with all the components inside it.
+		- Along with that after making the complete computer user should be able to remove some component and add other component 
+		- Use design pattern for this.
+		- Composite Pattern
+- Implement a E-commerce site
+	- where you have to show books to the user
+	- but the number of book is 1000000
+	- if you use simple design then site will crash due to memory insufficient error
+	- what design patter will you use 
+	- The Flyweight Pattern
+- A we know there are lots of user of LinkedIn and lets say some of them as miscellaneous users
+	- I want you to design a system that will block these miscellaneous users
+	- Also we know LinkedIn have multiple servers, so if a user is flagged as miscellaneous user than that use is not allowed to use that server.
+	- Also make sure that it is a distributed system.
+	- Design it.
+-  create a application where users can bit on the auction and when someone bids on the items, others can see that item in that instance and can bid to item and buy it.

@@ -1,0 +1,87 @@
+
+
+- Book
+	- [Gang of Four](https://www.javier8a.com/itc/bd1/articulo.pdf)
+- Resource
+	- [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)
+	- [LLD Crash Course for Freshers, SDE-I, SDE-II, SSE-I, SSE-II youtube](https://www.youtube.com/watch?v=33o_j_00N-8)
+		- https://codewitharyan.com/system-design/low-level-design
+	- [Design Patterns: Abstraction and Reuse of Ob ject-Oriented Design](https://cseweb.ucsd.edu//~wgg/CSE210/ecoop93-patterns.pdf)
+	- [OOAD Design Problem: The Coffee Maker](http://www.cs.unibo.it/~cianca/wwwpages/ids/esempi/coffee.pdf)
+	- [github geekific-official](https://github.com/geekific-official/geekific-youtube/tree/main/design-patterns)
+	- imp [all basic things](https://github.com/ByteByteGoHq/system-design-101)
+	- [github shabbirdwd53](https://github.com/shabbirdwd53/design_patterns)
+	- 
+- Questions
+	- Design notification system
+		- send mail, show notification in browser, send message to phone number etc.
+		- Different format for each notification
+---
+
+
+# Questions
+
+---
+- [github ashishps1](https://github.com/ashishps1/awesome-low-level-design/tree/main/problems)
+- [medium](https://medium.com/@prashant558908/solving-top-10-low-level-design-lld-interview-questions-in-2024-302b6177c869)
+- [github kumaransg](https://github.com/kumaransg/LLD)
+- [github prasadgujar](https://github.com/prasadgujar/low-level-design-primer/blob/master/solutions.md)
+- [leetcode](https://leetcode.com/discuss/post/5328221/frequently-asked-low-level-design-lld-qu-l0xk/)
+- [lldcoding](https://www.lldcoding.com/lld-problems-sheet)
+- 
+---
+
+- Library management system
+- storage system
+- A online website for learning 
+	- udemy
+	- unacademy
+- Online streaming platform
+	- Youtube
+	- Netlix
+- Flight booking (similar to make my trip)
+- Social apps
+	- twitter
+	- instagram
+	- discord
+	- whatsapp
+- Attendance management system
+- Shipping/ Delivery app
+- Commerce site
+	- Amazone
+	- Zometo
+	- Blinkit
+- Hotel booking site
+	- Make my trip
+- Car booking site
+	- Uber/OLA
+- Bus booking site
+	- RedBus or Make my trip
+- Notes making app
+- Design a Text Editor/Word Processor like Microsoft Word
+- Design an elevator management System with multiple lifts
+- Design a customer issue resolution system
+- Design an order and inventory management system
+- Design Meeting Scheduler
+- chat application
+- url shorting 
+- Design a Distributed task queue system (Amazon SDE-II )
+	- scenario:
+		- You're working on a large scale e-commerce platform that need to process various background task asynchronously
+		- such as sending emails, generating reports and processing orders.
+		- Design a distributed task queue system that can handle a high volume of tasks, ensuring reliability and provide scalability
+	- Requirements:
+		- The system should be able to handle different types of tasks with various priorities
+		- Task should be processed in a distributed manner to ensure scalability.
+		- the system should be fault-tolerant and able to recover from worker node failure.
+		- It should support task scheduling(both immediate and delayed execution)
+		- the system should provide a way to monitor task status and retry failed tasks.
+		- it should be able to handle a high throughput of task (thousands per minute)
+- Auto-complete engine for IDE
+	- Implement using trie + strategy patters
+- Customer Issue Resolution system
+	- using facade, strategy and repository layer patterns
+- Allow user to apply theme on website using bridge pattern
+- create a payment app
+	- GPAY
+	- 
