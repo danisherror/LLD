@@ -38,3 +38,6 @@
 - Show them your analysis skills 
 - There is no complete solution to problems 
 - Be ready to tell them the logic behind your decisions
+
+---
+# find other methods
