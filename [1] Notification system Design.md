@@ -19,6 +19,8 @@
 
 ## 3. High Level Design
 
+![High Level Design of Notification System](https://substackcdn.com/image/fetch/$s_!FCvc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2f3b21f-5366-4e42-b868-c3df3548cf62_1697x944.png)
+
 - what I can say by seeing the diagram
 	- Services will ask the notification system to send the notification to the user
 		- Here I am saying services because we have to create a backend that can easily integrate with any type of product. 
@@ -28,6 +30,15 @@
 	- Notification services
 		- Before doing anything, notification service will validate that request to see if it is a valid request.
 		- Before sending notifications to the user, it will first get user preferences from the DB.
+			- This is important because some user have preference that they don't want to receive the notifications or don't want notification more that 2 per day.
+		- Scheduler Service
+			- Here think of water reminders, we have set give notification after every 40 mins saying take rest and drink water.
+			- Now after 40 mins has passed, notification service will take the information from the DB and send the notification.
+		- Notification services uses queues to send notification information to the channels (email, push, sms ).
+			- Queue is used as we can define some set of rule or give priority to the message etc.
+		- Channel Processors.
+			- The role of channel Processors is to take the notifcation information from the queue and act on them accordingly.
+		
 
 
 
