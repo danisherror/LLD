@@ -20,14 +20,14 @@
 ## 3. High Level Design
 
 - what I can say by seeing the diagram
-- Services will ask the notification system to send the notification to the user
-- Here I am saying services because we have to create a backend that can easily integrate with any type of product. 
-- That product can be a e-commerce site or a payment gateway etc.
-- Services will come to load balancer before reaching the notification services.
-- Load balancer will balance the request and send that request to the notification services
-- Notification services
-- Before doing anything, notification service will validate that request to see if it is a valid request.
-- Before sending notifications to the user, it will first get user preferences from the DB.
+	- Services will ask the notification system to send the notification to the user
+		- Here I am saying services because we have to create a backend that can easily integrate with any type of product. 
+		- That product can be a e-commerce site or a payment gateway etc.
+	- Services will come to load balancer before reaching the notification services.
+		- Load balancer will balance the request and send that request to the notification services
+	- Notification services
+		- Before doing anything, notification service will validate that request to see if it is a valid request.
+		- Before sending notifications to the user, it will first get user preferences from the DB.
 
 
 
