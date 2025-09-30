@@ -1,4 +1,6 @@
 
+- Need to create monitoring for each stage so that we can see the load or find bottleneck easily
+- 
 ---
 # 1. Requirements
 ---
