@@ -62,6 +62,8 @@
 - Archiving Old Data
 
 ----
+# [# Designing a Scalable Notification System: A Deep Dive](https://medium.com/@rahulgargblog/designing-a-scalable-notification-system-a-deep-dive-3f0fc9161e21)
+---
 
 
 
@@ -70,7 +72,13 @@
 
 
 
-https://medium.com/@rahulgargblog/designing-a-scalable-notification-system-a-deep-dive-3f0fc9161e21
+
+
+
+
+
+
+
 [https://medium.com/@tanushree2102/designing-a-scalable-notification-system-from-hld-to-lld-e2ed4b3fb348](https://medium.com/@tanushree2102/designing-a-scalable-notification-system-from-hld-to-lld-e2ed4b3fb348)  
 [https://medium.com/@in10se/system-design-interview-question-3-realtime-notification-service-14fe1dec8e2a](https://medium.com/@in10se/system-design-interview-question-3-realtime-notification-service-14fe1dec8e2a)  
 [https://bytebytego.com/guides/how-does-a-typical-push-notification-system-work/](https://bytebytego.com/guides/how-does-a-typical-push-notification-system-work/)  
