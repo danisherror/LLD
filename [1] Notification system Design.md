@@ -1,5 +1,6 @@
 
 
+- Read 6. and 1 for best explaination
 ----
 # [ 1. Design a Scalable Notification Service - System Design Interview](https://blog.algomaster.io/p/design-a-scalable-notification-service)  
 
@@ -109,20 +110,26 @@ Let’s walk through the steps.
 - Best explanation of the design
 ![High Level Design](https://www.codekarle.com/images/Notification.png)
 
+---
+# [ 6. https://www.notificationapi.com/blog/notification-service-design-with-architectural-diagrams](https://www.notificationapi.com/blog/notification-service-design-with-architectural-diagrams) 
+
+---
+
+
+---
+# [ 7. https://www.linkedin.com/pulse/design-notification-system-saral-saxena--8hj9c/](https://www.linkedin.com/pulse/design-notification-system-saral-saxena--8hj9c/)  
+
+---
 
 
 
+# [8. https://blog.bitsrc.io/notifications-system-design-how-we-integrated-it-into-our-infrastructure-f93f279c18a0](https://blog.bitsrc.io/notifications-system-design-how-we-integrated-it-into-our-infrastructure-f93f279c18a0)  
+
+---
+
+# [9 . https://blog.devops.dev/building-a-flexible-and-scalable-notification-system-design-and-implementation-eef601f22518](https://blog.devops.dev/building-a-flexible-and-scalable-notification-system-design-and-implementation-eef601f22518)  
 
 
+---
 
-
-
-
-
-
-[https://www.notificationapi.com/blog/notification-service-design-with-architectural-diagrams](https://www.notificationapi.com/blog/notification-service-design-with-architectural-diagrams)  
-[https://www.linkedin.com/pulse/design-notification-system-saral-saxena--8hj9c/](https://www.linkedin.com/pulse/design-notification-system-saral-saxena--8hj9c/)  
-[https://blog.bitsrc.io/notifications-system-design-how-we-integrated-it-into-our-infrastructure-f93f279c18a0](https://blog.bitsrc.io/notifications-system-design-how-we-integrated-it-into-our-infrastructure-f93f279c18a0)  
-[https://blog.devops.dev/building-a-flexible-and-scalable-notification-system-design-and-implementation-eef601f22518](https://blog.devops.dev/building-a-flexible-and-scalable-notification-system-design-and-implementation-eef601f22518)  
-[https://www.magicbell.com/blog/notification-system-design](https://www.magicbell.com/blog/notification-system-design)
 
