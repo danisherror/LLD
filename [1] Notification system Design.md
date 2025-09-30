@@ -47,9 +47,21 @@
 		- User preference data
 ## 4. Bottlenecks
 
-- 
+- Handling failure and retries
+	- Lets say a notification to user failed, but it is the bill of his purchase. Since, it is an important notification we have to try to resend to the user.
+	- We can try to re-send the notification by channel processor.
+	- After enough tries, that notification should be tried after some waiting time. Maybe some dead queue.
+- Horizontal scalability
+	- Mostly scalability is needed for load balancer, notification service, notification queue, and channel processors when our user grows.
+- Sharding and Partitioning
+	- It is used when our user database and notification logs has become big
+- Monitoring and logging 
+	- **Centralized Logging**: Use tools like **ELK Stack** or **Prometheus/Grafana** to collect logs from various components and monitor the health of the system.
+	- **Alerting**: Set up alerts for failures (e.g., notification delivery failure rates exceed a threshold).
+	- **Metrics**: Track metrics like success rate, failure rate, delivery latency, and throughput for each channel.
+- Archiving Old Data
 
-
+----
 
 
 
